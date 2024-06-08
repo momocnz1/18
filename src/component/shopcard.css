@@ -1,0 +1,74 @@
+.Shopcard{
+    width: 12rem;
+    height: 14rem;
+    background-color: #01AE92 ;
+    padding: 1rem ;
+    margin: 2rem;
+}
+.img{
+    width: 12rem;
+    height: 10rem;
+    background-color: #f1f1f1;
+    justify-items: center;
+    display: flex;
+}
+.buttomT{
+    width: 10rem;
+    height: 2rem;
+    border: none;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 0.5rem;
+    color: #EE9AE5;
+}
+
+.popup-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center; /* จัดให้ป๊อปอัปเปอร์อยู่กลางแนวนอน */
+    align-items: center; /* จัดให้ป๊อปอัปเปอร์อยู่กลางแนวตั้ง */
+    background-color: rgba(0, 0, 0, 0.5); /* สีพื้นหลังสีดำโปร่งเพื่อให้ป๊อปอัปเปอร์เด้งขึ้นมาเป็นชั้นหน้า */
+  }
+  
+  .popup {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* เพิ่มเงาให้ป๊อปอัปเปอร์ */
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+  
+  .ShopcardDetail {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 30rem;
+    height: 30rem;
+    transform: translate(-50%, -50%);
+    background-color: #4B4DC8;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 999; /* กำหนดให้ ShopcardDetail อยู่ด้านบนของเว็บ */
+  }
+  .imgbig{
+    width: 30rem;
+    height: 18rem;
+    margin: 1rem 0rem;
+    background-color: #f1f1f1;
+    justify-items: center;
+    display: flex;
+  }

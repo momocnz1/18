@@ -1,0 +1,17 @@
+.search{
+    width: 1rem;
+    height: 1rem;
+    box-sizing: border-box;
+    background-image: url('../icon/search.png');
+    background-position: 2px 3px;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    border-radius: 0.5rem;
+    padding-left: 1.4rem;
+    border: none;
+    background-color: #fff;
+}
+input[type = text]{
+ width: 45rem;
+ height: 1.8rem;
+}

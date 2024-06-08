@@ -1,0 +1,30 @@
+.navbar {
+    height: 3.5rem;
+    background-color: #4B4DC8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #f1f1f1;
+    padding: 0 1rem;
+}
+
+.logonavbar {
+    width: 3rem;
+    height: 3rem;
+    box-sizing: border-box;
+    background-image: url('../icon/18AGAIN-icon\ -\ smail.png');
+    background-position: -8px -8px;
+    background-repeat: no-repeat;
+    background-size: 60px;
+    border-radius: 2rem;
+    padding-left: 0.4rem;
+    border: none;
+    margin-left: 1rem;
+    background-color: #fff;
+}
+
+.Home {
+    color: #f1f1f1;
+    cursor: pointer;
+    text-decoration: none;
+}

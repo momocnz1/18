@@ -1,0 +1,17 @@
+/* .Producttext{
+   background-color: #EE9AE5; 
+  color: #EE9AE5;
+} 
+
+.Promotiontext{
+  background-color: #EE9AE5; 
+  color: #EE9AE5;
+   text-decoration: underline;
+} */
+
+.ShopcardList {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* กำหนดขนาดคอลัมน์ */
+    gap: 8rem; 
+    margin: 2rem;
+  }
